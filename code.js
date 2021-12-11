@@ -26,6 +26,7 @@ function findRgbColor(){
     const rgb = ["(255, 0, 0)","(0, 255, 0)","(0, 0, 255)","(0, 0, 0)","(255, 255, 255)","(255, 255, 0)","(0, 255, 255)","(128, 0, 128)","(255, 102, 0)","(150, 150, 150)"];
 
     var color = document.getElementById("colorName").value;
+    color = color.toLowerCase();
     var findColor = false;
     for (var i = 0; i < colors.length; i++){
         if (color == colors[i]){
