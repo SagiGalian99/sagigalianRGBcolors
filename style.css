@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Courier New', Courier, monospace;
+}
+#middleDivMode1{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: blue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+.locate{
+    width: 100%;
+    height: 60%;
+    top: 50%;
+    text-align: center;
+}
+.locate input{
+    margin-top: 15px;
+    width: 80%;
+    height: 20%;
+    outline: none;
+}
+.colorSee{
+    width: 100%;
+    height: 40%;
+}
+.colorSee button{
+    margin-left: 25%;
+    width: 50%;
+    height: 30%;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border-radius: 15px;
+}
+
+#middleDivMode2{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: green;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    text-align: center;
+}
+
+.middleDivMode2 input{
+    width: 80%;
+    height: 10%;
+    outline: none;
+}
+.middleDivMode2 button{
+    margin-top: 20px;
+    width: 60%;
+    height: 8%;
+    color: white;
+    background: rgb(20, 20, 20);
+    border-radius: 15px;
+}
+#middleDivMode3{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: blue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+#middleDivDefault{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: rgb(50, 50, 50);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+.middleDivDefault *{
+    text-align: center;
+    color: black;
+
+}
+.title{
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 5%;
+    left: 50%;
+    color: antiquewhite;
+    transform: translate(-50%);
+}
+.title h1{
+    text-align: center;
+}
+.bottomDiv{
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.bottomDiv button{
+    margin-top: 5px;
+    width: 25%; 
+    height: 90%;
+    border-radius: 28%;
+    background-color: green;
+}
+#btn1:focus, #btn2:focus, #btn3:focus{
+    transition: 1s;
+    background-color: white;
+}
+#btn1, #btn2, #btn3{
+    transition: 1s;
+    background-color: green;
+}

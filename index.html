@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1>RGB colors</h1>
+    </div>
+    <div id="middleDivMode1" class="middleDivMode1">
+        <div class="locate">
+            <input type="text" id="red">
+            <input type="text" id="green">
+            <input type="text" id="blue">
+        </div>
+        <div class="colorSee" id="colorSee">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button onclick="seeColor()">see</button>
+        </div>
+    </div>
+
+    <div class="middleDivMode2" id="middleDivMode2">
+        <br>
+        <br>
+        <input type="text" id="colorName">
+        <br>
+        <button onclick="findRgbColor()">find</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 id="rgbName">Put color name</h1>
+    </div>
+
+    <div id="middleDivDefault" class="middleDivDefault">
+        <h1>This application made by sagi galian</h1>
+        <h2>In this application you have 2 modes, each button down below will get you in a diffrent mode.</h2>
+    </div>
+    <div class="bottomDiv">   
+        <button id="btn1" onclick="mode1()">RGB</button>
+        <button id="btn2" onclick="mode2()">Name</button>
+        <button id="btn3" onclick="mode3()">Home</button>
+    </div>
+</body>
+</html>
