@@ -22,8 +22,8 @@ function seeColor(){
     document.getElementById("colorSee").style.backgroundColor = "rgb(" + red.toString() + "," + green.toString() + "," + blue.toString() + ")";
 }
 function findRgbColor(){
-    const colors = ["red","green","blue"];
-    const rgb = ["(255, 0, 0)","(0, 255, 0)","(0, 0, 255)"];
+    const colors = ["red","green","blue","black","white","yellow","cyan","purple","orange","gray"];
+    const rgb = ["(255, 0, 0)","(0, 255, 0)","(0, 0, 255)","(0, 0, 0)","(255, 255, 255)","(255, 255, 0)","(0, 255, 255)","(128, 0, 128)","(255, 102, 0)","(150, 150, 150)"];
 
     var color = document.getElementById("colorName").value;
     var findColor = false;
